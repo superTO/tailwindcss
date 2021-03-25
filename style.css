@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+If you're using postcss-import (or a tool that uses it under the hood, such as Webpacker for Rails),
+use our imports instead of the @tailwind directive to avoid issues when importing any of your own additional files
+*/
+
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
